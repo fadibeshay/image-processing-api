@@ -1,9 +1,9 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import images from './api/images';
 
 const routes = express.Router();
 
-routes.get('/', (_req, res) => {
+routes.get('/', (_req: Request, res: Response): void => {
   res.send('Main API route');
 });
 
