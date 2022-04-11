@@ -11,7 +11,7 @@ async function resize(
     __dirname,
     '..',
     '..',
-    'full',
+    'images',
     `${imageName}.jpg`
   );
 
@@ -19,7 +19,7 @@ async function resize(
     __dirname,
     '..',
     '..',
-    'thumb',
+    'thumbs',
     `${imageName}-${width}x${height}.jpg`
   );
 
